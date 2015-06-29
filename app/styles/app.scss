@@ -3,3 +3,12 @@ $gutter: 0em;
 
 @import "bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "bower_components/neat/app/assets/stylesheets/neat";
+
+.recipe-options-list,
+.recipe-ingredients-list {
+  list-style: none;
+}
+
+.recipe-options {
+  display: inline-block;
+}
